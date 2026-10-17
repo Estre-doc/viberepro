@@ -1,6 +1,6 @@
 # Roadmap
 
-The focus is a useful loop: observe a browser failure, give an agent the evidence, and verify the next scan. v0.1.0 is distributed through [GitHub Releases](https://github.com/Estre-doc/viberepro/releases); npm registry publication is deferred. These are priorities, not promised dates.
+The focus is a useful loop: observe a browser failure, give an agent the evidence, and verify the next scan. v0.1.0 is distributed through [npm](https://www.npmjs.com/package/viberepro) and [GitHub Releases](https://github.com/Estre-doc/viberepro/releases). These are priorities, not promised dates.
 
 ## Implemented locally
 
@@ -14,7 +14,7 @@ The focus is a useful loop: observe a browser failure, give an agent the evidenc
 ## Release and adoption priorities
 
 - Keep the GitHub release, repository metadata, and hosted CI results consistent.
-- Publish the verified npm package when npm authentication is available, then add tested registry commands.
+- Keep npm installation instructions and runtime packaging checks working for new users.
 - Record a short real demo from the included fixture, using the generated reports.
 - Gather small, permitted real-app reproductions and publish confirmed limitations alongside them.
 

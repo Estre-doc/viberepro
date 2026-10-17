@@ -1,6 +1,6 @@
 # Publishing v0.1.0
 
-The public repository is [Estre-doc/viberepro](https://github.com/Estre-doc/viberepro), with [v0.1.0 downloads](https://github.com/Estre-doc/viberepro/releases/tag/v0.1.0). npm registry publication is deferred at the maintainer's request. The GitHub release includes the built CLI tarball, source ZIP, and SHA-256 checksums; it does not require npm registry publication.
+The public repository is [Estre-doc/viberepro](https://github.com/Estre-doc/viberepro), with [v0.1.0 downloads](https://github.com/Estre-doc/viberepro/releases/tag/v0.1.0) and the [npm package](https://www.npmjs.com/package/viberepro). The GitHub release includes the built CLI tarball, source ZIP, and SHA-256 checksums. See the [npm publishing guide](NPM-PUBLISHING.md) for official-registry login checks, 2FA, and PowerShell commands.
 
 For subsequent releases:
 

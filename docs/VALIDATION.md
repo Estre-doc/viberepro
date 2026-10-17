@@ -9,8 +9,11 @@ Executed on Windows x64 with Node.js **22.13.1**, pnpm **11.25.0**, Playwright *
 | `pnpm check` | Passed: strict TypeScript, ESLint, warning-free production build, **24/24 tests**, license audit |
 | `pnpm pack:smoke` | Passed: fresh temporary npm consumer, 3 installed packages, no React/Vite runtime requirement, installer, offline npm exec, 6 mobile findings, repeat scan with 0 new / 6 still present, and imported comparison API |
 | `npm pack` | Passed; prepack build/license gates, 19 packaged files, CLI, declarations, and offline report assets included; 193,550-byte tarball at the time of this check |
+| Official npm `viberepro@0.1.0` | Published and installed into a fresh consumer; official tarball URL and SHA-512 match the submitted 194,286-byte package; `npx.cmd` version and Chromium installer passed; real mobile scans on 2 fixture URLs found 6 observations before repairs and 0 afterward, with 6 resolved / 0 new / 0 unverified |
 | `pnpm demo:generate` | Complete: 2 URLs / 4 visits per scan; 11 → 0 observations, 11 resolved / 0 new / 0 unverified; healthy control preserved; automatic free port and fresh output directory |
 | Screenshot review | Desktop and 390px reports visually inspected before/after; fixed page screenshot and comparison history available; mobile evidence preserves the actual scrolled 390×844 viewport |
+
+All 13 runtime files in the npm distribution match the original GitHub v0.1.0 release. The package metadata and README include the later publishing fixes; existing GitHub assets and the tag remain unchanged.
 
 The original scanner checks, retained in the expanded suite, verify:
 
@@ -44,4 +47,4 @@ Demo observations are **4 HTTP failures**, **2 transport failures**, **2 JavaScr
 
 The license check covers **122 installed packages** on this platform. Full notices for runtime/embedded libraries are verified. Build-only Lightning CSS is MPL-2.0; metadata-only upstream development/native-package cases are recorded in the inventory. See `DEPENDENCIES.md`.
 
-This table records local Windows checks. Hosted Linux Node 22/24 and Windows Node 22 results are available in the repository's [CI runs](https://github.com/Estre-doc/viberepro/actions/workflows/ci.yml); consult the run for the release commit rather than treating a configured workflow as proof of success. npm registry publication is deferred at the maintainer's request. External public-site scans and authenticated/interactive flows were not tested. Name checks are point-in-time lookups, not a reservation or trademark clearance.
+This table records local Windows checks. Hosted Linux Node 22/24 and Windows Node 22 results are available in the repository's [CI runs](https://github.com/Estre-doc/viberepro/actions/workflows/ci.yml); consult the run for the release commit rather than treating a configured workflow as proof of success. The current prepack hook also passed with no pnpm executable on PATH, and the runtime consumer smoke check passed after the publishing-script change. External public-site scans and authenticated/interactive flows were not tested. Name checks are point-in-time lookups, not a reservation or trademark clearance.

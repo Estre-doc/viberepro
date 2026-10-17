@@ -10,9 +10,22 @@ No account. No AI API key. No cloud upload. MIT licensed.
 
 ![A real VibeRepro report from the included Bug Lab](docs/assets/report.png)
 
-**v0.1.0 source release:** [GitHub downloads](https://github.com/Estre-doc/viberepro/releases/tag/v0.1.0). npm registry publication is deferred; install the release tarball or run from source.
+**v0.1.0:** [npm package](https://www.npmjs.com/package/viberepro) · [GitHub downloads](https://github.com/Estre-doc/viberepro/releases/tag/v0.1.0).
 
 [中文说明](README.zh-CN.md) · [Demo](docs/DEMO.md) · [Baseline & CI](docs/COMPARISON.md) · [Agent handoff](docs/AGENT-HANDOFF.md) · [Roadmap](docs/ROADMAP.md)
+
+## Quick start
+
+Requires Node.js 22.13+. Install Chromium once, then scan your running app:
+
+```sh
+npx viberepro@0.1.0 install
+npx viberepro@0.1.0 http://localhost:3000 --out before
+# After reviewing and applying repairs:
+npx viberepro@0.1.0 http://localhost:3000 --baseline before/report.json --out after --fail-on-new
+```
+
+Open `before/report.html` or `after/report.html` directly. No pnpm, account, or model API key is needed to use the published CLI.
 
 ## See the repair loop
 
@@ -87,7 +100,7 @@ npm exec --yes --package ./viberepro-0.1.0.tgz -- viberepro http://127.0.0.1:417
 
 `viberepro scan <url>` is also accepted. `--help` lists every option. Existing nonempty output directories are refused to prevent stale evidence or accidental overwrites.
 
-The unscoped npm registry name has not been published. `npx viberepro@0.1.0` is not an available installation path for this release.
+On Windows PowerShell, use `npm.cmd` for the `npm exec` examples so `--` and the CLI options are forwarded correctly. [Maintainer publishing guide](docs/NPM-PUBLISHING.md).
 
 ## What is in the pack?
 

@@ -2,13 +2,26 @@
 
 **把网页 Bug 交给编程助手，再用浏览器验证修复结果。**
 
-v0.1.0 已提供 GitHub 源码与安装包；npm 注册表发布暂缓。无需账号、API Key 或云服务。MIT 开源。
+v0.1.0 已提供 npm 安装包和 GitHub 源码。无需账号、API Key 或云服务。MIT 开源。
 
 [![CI](https://github.com/Estre-doc/viberepro/actions/workflows/ci.yml/badge.svg)](https://github.com/Estre-doc/viberepro/actions/workflows/ci.yml) · [正式版下载](https://github.com/Estre-doc/viberepro/releases/tag/v0.1.0)
 
+## 直接使用
+
+只需 Node.js 22.13+，无需安装 pnpm。首次安装 Chromium，再扫描正在运行的项目：
+
+```sh
+npx viberepro@0.1.0 install
+npx viberepro@0.1.0 http://localhost:3000 --out before
+# 检查并应用修复后，再次扫描：
+npx viberepro@0.1.0 http://localhost:3000 --baseline before/report.json --out after --fail-on-new
+```
+
+直接打开生成的 `report.html` 查看结果。[npm 包页面](https://www.npmjs.com/package/viberepro)。
+
 ![实际生成的报告](docs/assets/report.png)
 
-需要 Node.js 22.13+、pnpm 11.25.0。在仓库目录执行：
+从源码运行演示需要 Node.js 22.13+、pnpm 11.25.0。在仓库目录执行：
 
 ```sh
 git clone https://github.com/Estre-doc/viberepro.git
@@ -35,7 +48,7 @@ viberepro http://localhost:3000 --out before
 viberepro http://localhost:3000 --baseline before/report.json --out after --fail-on-new
 ```
 
-也可以下载 Release 中的 `.tgz`，通过 `npm exec --package ./viberepro-0.1.0.tgz -- viberepro <url>` 使用。npm 注册表尚未上架，请使用上述 GitHub 安装地址。
+也可以下载 Release 中的 `.tgz`，通过 `npm exec --package ./viberepro-0.1.0.tgz -- viberepro <url>` 使用。Windows PowerShell 请将 `npm exec` 命令中的 `npm` 换为 `npm.cmd`，以正确转发命令行参数。[维护者发布说明](docs/NPM-PUBLISHING.md)。
 
 在源码仓库内运行时：
 

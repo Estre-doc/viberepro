@@ -29,7 +29,7 @@
     "licenses:check": "node scripts/licenses.mjs --check",
     "licenses:generate": "node scripts/licenses.mjs",
     "pack:smoke": "node scripts/pack-smoke.mjs",
-    "prepack": "pnpm build && pnpm licenses:check"
+    "prepack": "node scripts/build.mjs && node scripts/licenses.mjs --check"
   },
   "dependencies": { "playwright": "1.64.1" },
   "devDependencies": {

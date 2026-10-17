@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0 npm publication — 2026-10-17
+
+- Build and check notices through Node directly in the prepack hook, so packaging a prepared checkout does not require a globally available pnpm command.
+- Document explicit-registry login checks and PowerShell argument forwarding for maintainers.
+- Add npm quick-start instructions. The runtime files match the original GitHub v0.1.0 release; its existing assets and tag remain unchanged.
+
 ## 0.1.0 — 2026-10-17
 
 - Baseline comparison with new, still-present, resolved, and unverified observations; incomplete coverage never counts as a verified repair.
