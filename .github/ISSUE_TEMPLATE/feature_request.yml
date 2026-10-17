@@ -1,0 +1,22 @@
+name: Feature request
+description: Describe a browser debugging workflow VibeRepro could improve
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow and where the current evidence pack falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Small example and expected evidence
+      description: A local fixture or redacted report helps. Explain what a successful result would show.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround
+      description: How do you solve this today?

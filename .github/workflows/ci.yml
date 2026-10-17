@@ -1,0 +1,49 @@
+name: CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            node: 22
+          - os: ubuntu-latest
+            node: 24
+          - os: windows-latest
+            node: 22
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm check
+      - run: pnpm pack:smoke
+      - run: npm pack --dry-run
+      - name: Verify the documented repair loop
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 22
+        run: pnpm demo:generate
+      - name: Add repair comparison to job summary
+        if: success() && matrix.os == 'ubuntu-latest' && matrix.node == 22
+        shell: bash
+        run: cat viberepro-report-demo-*/after/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep demo evidence
+        if: always() && matrix.os == 'ubuntu-latest' && matrix.node == 22
+        uses: actions/upload-artifact@v7
+        with:
+          name: repair-loop-evidence
+          path: viberepro-report-demo-*/
+          if-no-files-found: ignore
+          retention-days: 7

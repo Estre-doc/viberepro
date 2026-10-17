@@ -1,0 +1,10 @@
+node_modules/
+dist/
+demo-report/
+viberepro-report*/
+*.tgz
+test-results/
+.env
+.env.*
+!.env.example
+work/

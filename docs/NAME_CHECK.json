@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-17T12:40:53.261Z",
+  "checks": [
+    {
+      "service": "npm",
+      "url": "https://registry.npmjs.org/viberepro",
+      "status": 404,
+      "result": "No registry entry; availability must be confirmed at publish time"
+    },
+    {
+      "service": "github",
+      "url": "https://api.github.com/search/repositories?q=VibeRepro+in:name",
+      "status": 200,
+      "totalCount": 0,
+      "repositories": [],
+      "result": "Search only; GitHub names are owner-scoped, owner not selected"
+    }
+  ],
+  "trademark": "Not checked. Search is not a trademark clearance or a reservation."
+}

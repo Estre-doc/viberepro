@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-10-17T13:15:52.053Z",
+  "before": {
+    "urls": 2,
+    "pageVisits": 4,
+    "issues": 11,
+    "errors": 10,
+    "warnings": 1
+  },
+  "after": {
+    "urls": 2,
+    "pageVisits": 4,
+    "issues": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "comparison": {
+    "added": 0,
+    "unchanged": 0,
+    "resolved": 11,
+    "unverified": 0
+  },
+  "status": "complete"
+}

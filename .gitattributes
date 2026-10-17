@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.png binary
+*.tgz binary
+# Preserve upstream notice whitespace; it is not project formatting.
+THIRD_PARTY_NOTICES.txt -whitespace

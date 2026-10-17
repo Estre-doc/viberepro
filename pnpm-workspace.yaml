@@ -1,0 +1,7 @@
+packages:
+  - '.'
+allowBuilds:
+  esbuild: true
+minimumReleaseAgeExclude:
+  - eslint@10.13.0
+  - lucide-react@1.59.0

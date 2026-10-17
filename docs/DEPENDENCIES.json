@@ -1,0 +1,981 @@
+{
+  "note": "Installed dependency inventory. Optional native packages vary by platform; CI audits its own installed graph. Chromium is downloaded separately and is not redistributed in this package.",
+  "packages": [
+    {
+      "name": "@cacheable/memory",
+      "version": "2.2.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a3b485cf9f093fa3287d1f902d90f8fa67d3fc068ec2d743747da98abee78f1f"
+    },
+    {
+      "name": "@cacheable/utils",
+      "version": "2.5.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a3b485cf9f093fa3287d1f902d90f8fa67d3fc068ec2d743747da98abee78f1f"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "licenseSource": "SPDX metadata only; upstream package omits full license text (development/native tool)",
+      "buildOnlyMpl": false,
+      "licenseSha256": "9d0ddacdfbc3ba840664c856c9dca529710b0dd8d8aa944b8b5591dbe31ced35"
+    },
+    {
+      "name": "@eslint-community/eslint-utils",
+      "version": "4.10.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20b9e14d9f3b20f81a2daf346f838f5adf4e0bb79afffaa47bc291fba0c34ef8"
+    },
+    {
+      "name": "@eslint-community/regexpp",
+      "version": "4.12.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20b9e14d9f3b20f81a2daf346f838f5adf4e0bb79afffaa47bc291fba0c34ef8"
+    },
+    {
+      "name": "@eslint/config-array",
+      "version": "0.23.5",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@eslint/config-helpers",
+      "version": "0.7.0",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@eslint/core",
+      "version": "1.2.1",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@eslint/js",
+      "version": "10.0.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d23826389520be5b16cd6a2c09dff3e638b0741835278c9b9a8629e5b8a674a3"
+    },
+    {
+      "name": "@eslint/object-schema",
+      "version": "3.0.5",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@eslint/plugin-kit",
+      "version": "0.7.3",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@humanfs/core",
+      "version": "0.19.2",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@humanfs/node",
+      "version": "0.16.8",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@humanfs/types",
+      "version": "0.15.0",
+      "license": "Apache-2.0",
+      "licenseSource": "Package README license section",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a2cd1c7ff339b90a9824f21db625067370f5e9ac6f09be9058a995f7fab2e3e1"
+    },
+    {
+      "name": "@humanwhocodes/module-importer",
+      "version": "1.0.1",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@humanwhocodes/retry",
+      "version": "0.4.3",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "20508179aaeb96e771a937bcd76c54c7ce16439df2821c1dd3bc19ae78b07a99"
+    },
+    {
+      "name": "@keyv/bigmap",
+      "version": "1.3.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "4b1891002233b3a1b5a0f1e6ce8c68f42576b627632d969655ca5cbba6b1d953"
+    },
+    {
+      "name": "@keyv/serialize",
+      "version": "1.1.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "ec1b8caf13a3a18a523c7cd1bf7c858dcf703ca62e51904e16f87fdfd14e090c"
+    },
+    {
+      "name": "@oxc-project/types",
+      "version": "0.154.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "4f194f110a66b1f01bb72d134a4b0b92c38f6375ebe1c24739c41060c188602d"
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "version": "1.2.14",
+      "license": "MIT",
+      "licenseSource": "SPDX metadata only; upstream package omits full license text (development/native tool)",
+      "buildOnlyMpl": false,
+      "licenseSha256": "24cf0338c201096a1382a20f5118dc269507321f4b25fce0549de3f18f6b85ac"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "17c9043e71912fe62830a5083bb3657c2ae686912763af8b5ccedd960012bfa2"
+    },
+    {
+      "name": "@types/esrecurse",
+      "version": "4.3.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "33cb7bab0d9cff24fe60e6301a1a5f0333fe57eef8b07b3f0156676171e5b9d4"
+    },
+    {
+      "name": "@types/estree",
+      "version": "1.0.9",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "33cb7bab0d9cff24fe60e6301a1a5f0333fe57eef8b07b3f0156676171e5b9d4"
+    },
+    {
+      "name": "@types/json-schema",
+      "version": "7.0.15",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "33cb7bab0d9cff24fe60e6301a1a5f0333fe57eef8b07b3f0156676171e5b9d4"
+    },
+    {
+      "name": "@types/node",
+      "version": "22.19.7",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "33cb7bab0d9cff24fe60e6301a1a5f0333fe57eef8b07b3f0156676171e5b9d4"
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "33cb7bab0d9cff24fe60e6301a1a5f0333fe57eef8b07b3f0156676171e5b9d4"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "33cb7bab0d9cff24fe60e6301a1a5f0333fe57eef8b07b3f0156676171e5b9d4"
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "@typescript-eslint/project-service",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "34ef17af6cc005b27a3e6c2e6ee219033461dc9b20a152200a503d2dafd8f02a"
+    },
+    {
+      "name": "@typescript-eslint/scope-manager",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "@typescript-eslint/tsconfig-utils",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "34ef17af6cc005b27a3e6c2e6ee219033461dc9b20a152200a503d2dafd8f02a"
+    },
+    {
+      "name": "@typescript-eslint/type-utils",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "f15a22dda6288050fc3b087d765a29cc7ec033b957cdbad67e69123681f9323d"
+    },
+    {
+      "name": "@typescript-eslint/types",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "@typescript-eslint/typescript-estree",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "@typescript-eslint/utils",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "@typescript-eslint/visitor-keys",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "acorn-jsx",
+      "version": "5.3.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "994dd1eef0486c31a5530c427241f2a6aee56c1314c7f69a00cb9bd5d47b7e19"
+    },
+    {
+      "name": "acorn",
+      "version": "8.19.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "cd5814e5e078a4d515554872719992cd93b3a8cf31af240dc65cd0f25d88e730"
+    },
+    {
+      "name": "ajv",
+      "version": "6.15.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "558cf72bf003c5e44f47e6a1ae534b4a909cfb9658f8823dcfdeb79568936951"
+    },
+    {
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "fd2551c9ce78c8a7a3f0fc82e1db40f23e9f83de23e6b3164086cea36d3c2c20"
+    },
+    {
+      "name": "brace-expansion",
+      "version": "5.0.12",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "bbce2c036256da8b4cfa4496b9fbc1bd9ff9a513277d16ccc7d89f47dd7192f7"
+    },
+    {
+      "name": "cacheable",
+      "version": "2.5.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a3b485cf9f093fa3287d1f902d90f8fa67d3fc068ec2d743747da98abee78f1f"
+    },
+    {
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "8c3a6506799e07aad8e50ceb72164e50b81793829c8f77eceae6c2b38cf39ee8"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "c4142413a5fe6fb93a91a1e63cb5dcd0e2fcbe5b9a3bdea11e739d8d064af427"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d5ecf19468b57ed7841569022e832b078c20afe6877933eb1857c2dd6a16afac"
+    },
+    {
+      "name": "deep-is",
+      "version": "0.1.4",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a696d6b54274c861309458f5f5ea627a4c6f9fc555db47e3b20d438d50d7121e"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "c6b6a252956243f495014c339c06957d225f2ab5c99465d8df9f7532f29408a7"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "c762c231d40c63d3847399e5da9f465c298259b0414ca669b23a32738ba859c8"
+    },
+    {
+      "name": "escape-string-regexp",
+      "version": "4.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d494e2998d0043c9415755c7cda32c4a1403a6f340b8c8ad1fd93fef5c0a763f"
+    },
+    {
+      "name": "eslint-scope",
+      "version": "9.1.2",
+      "license": "BSD-2-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "f80099341b0d2dc61dab945f863a029525b48413005147706a968b0e076ee114"
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "version": "3.4.3",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "9d2b39744e59a0da1cc2029141195adc15f58bfb7e0e37062b2288526fc259c6"
+    },
+    {
+      "name": "eslint-visitor-keys",
+      "version": "5.0.1",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "9d2b39744e59a0da1cc2029141195adc15f58bfb7e0e37062b2288526fc259c6"
+    },
+    {
+      "name": "eslint",
+      "version": "10.13.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d23826389520be5b16cd6a2c09dff3e638b0741835278c9b9a8629e5b8a674a3"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "license": "BSD-2-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "60b4c70bdff363aabe7d24d20f00981c05df84caf2bc0f6190f6e57b041e101c"
+    },
+    {
+      "name": "esquery",
+      "version": "1.7.0",
+      "license": "BSD-3-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "de0d376bd2690d1089d2a8b3bf7fcd338121ee3413bdae7ac5f8d561f6faf280"
+    },
+    {
+      "name": "esrecurse",
+      "version": "4.3.0",
+      "license": "BSD-2-Clause",
+      "licenseSource": "Package README license section",
+      "buildOnlyMpl": false,
+      "licenseSha256": "5aec71044e1dc4dde4e70e346c7dd8f3de4dd28483386b935149b3ab54181324"
+    },
+    {
+      "name": "estraverse",
+      "version": "5.3.0",
+      "license": "BSD-2-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d3fd178d9410d05bf4baecd241329dda968cde65ea4fd2fcafe7c4769a428961"
+    },
+    {
+      "name": "esutils",
+      "version": "2.0.3",
+      "license": "BSD-2-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d3fd178d9410d05bf4baecd241329dda968cde65ea4fd2fcafe7c4769a428961"
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "f899ac653bdeca8f97f6aaa05ad409b99137b9e2e88a650ebd03fc15207790d6"
+    },
+    {
+      "name": "fast-json-stable-stringify",
+      "version": "2.1.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d7f893a284e0195ba22011e7beb6a79f4019742cda2a1abda0c44fbd15c9d92d"
+    },
+    {
+      "name": "fast-levenshtein",
+      "version": "2.0.6",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "318475d3db75f3f77d30579d8555da6da6699c4ad6d56ad4f4d73da2c0fac920"
+    },
+    {
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d1ea65174f9ee3eebd389ff32f1ae9b0c8a523a0d20c9d2e77bc6f0dfb749682"
+    },
+    {
+      "name": "file-entry-cache",
+      "version": "11.1.5",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a3b485cf9f093fa3287d1f902d90f8fa67d3fc068ec2d743747da98abee78f1f"
+    },
+    {
+      "name": "find-up",
+      "version": "5.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d494e2998d0043c9415755c7cda32c4a1403a6f340b8c8ad1fd93fef5c0a763f"
+    },
+    {
+      "name": "flat-cache",
+      "version": "6.1.23",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a3b485cf9f093fa3287d1f902d90f8fa67d3fc068ec2d743747da98abee78f1f"
+    },
+    {
+      "name": "flatted",
+      "version": "3.4.4",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "ba9268b26d93e3f4aa23d7aa7b87afa3857e8387efdf289d3bdbd813715229fe"
+    },
+    {
+      "name": "glob-parent",
+      "version": "6.0.2",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "b40895c02fc2e4eeb9ff907937c79b12bbf87327092e47f9e62955994a4cceec"
+    },
+    {
+      "name": "hashery",
+      "version": "1.5.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "94a26c0e9a626c1207dedc67c86cd64e1d1e78b0cb5571159cb0beffa439972e"
+    },
+    {
+      "name": "hookified",
+      "version": "1.15.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d9cf732b6a4dc2b7bef3e13a40b10d573357bc0f5517985359f82b6f56541bcd"
+    },
+    {
+      "name": "hookified",
+      "version": "2.2.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d9cf732b6a4dc2b7bef3e13a40b10d573357bc0f5517985359f82b6f56541bcd"
+    },
+    {
+      "name": "ignore",
+      "version": "5.3.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "fbf1a2592b20b0776e5b3a32c1f87f8b0a79547ba18ea510d4e51931193b591e"
+    },
+    {
+      "name": "ignore",
+      "version": "7.0.12",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "fbf1a2592b20b0776e5b3a32c1f87f8b0a79547ba18ea510d4e51931193b591e"
+    },
+    {
+      "name": "imurmurhash",
+      "version": "0.1.4",
+      "license": "MIT",
+      "licenseSource": "Package README license section",
+      "buildOnlyMpl": false,
+      "licenseSha256": "128995ce63175cedcaa3dc46c57f90bcf6e81b28bb49bfd4b01cdb87f90a848a"
+    },
+    {
+      "name": "is-extglob",
+      "version": "2.1.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "1dba6179467e3ffc3417fbe0ad4b239ea270985486ef27c819d6e7a89c93467f"
+    },
+    {
+      "name": "is-glob",
+      "version": "4.0.3",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "0895bb8f32491e954149eee929dbf9265bb6540de6985908ba06a0476a4fc4a2"
+    },
+    {
+      "name": "isexe",
+      "version": "2.0.0",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "2fa032ebcbd33b6cde15d275a97f48c2298aafbd9f2d5efb9910d0ff8f2ff2e5"
+    },
+    {
+      "name": "json-schema-traverse",
+      "version": "0.4.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "f899ac653bdeca8f97f6aaa05ad409b99137b9e2e88a650ebd03fc15207790d6"
+    },
+    {
+      "name": "json-stable-stringify-without-jsonify",
+      "version": "1.0.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "2f70b29b7bfef23fda50d28b86c8336a6ab926fdf99b06c5f3a6a2464c5971da"
+    },
+    {
+      "name": "keyv",
+      "version": "5.6.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "ec1b8caf13a3a18a523c7cd1bf7c858dcf703ca62e51904e16f87fdfd14e090c"
+    },
+    {
+      "name": "levn",
+      "version": "0.4.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "852fd12ee703f3281d5fa920a9534d705b6c3ca70b6a06ec8c547de41445c2ee"
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": true,
+      "licenseSha256": "e1676a64f283c26a5216ee2b66f34d557415e92515a5d553b682c38e0c645a9e"
+    },
+    {
+      "name": "lightningcss",
+      "version": "1.33.0",
+      "license": "MPL-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": true,
+      "licenseSha256": "e1676a64f283c26a5216ee2b66f34d557415e92515a5d553b682c38e0c645a9e"
+    },
+    {
+      "name": "locate-path",
+      "version": "6.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d494e2998d0043c9415755c7cda32c4a1403a6f340b8c8ad1fd93fef5c0a763f"
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.59.0",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "02b767b862035ebd4244bb4677fa7b912096df065a1642cdd7da771d9b32fbe4"
+    },
+    {
+      "name": "minimatch",
+      "version": "10.2.6",
+      "license": "BlueOak-1.0.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "4b9d9dcd099c66bb5af0d6814f3b9b8bb88e4d7e2124c20a7b5b2e04c93105b1"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a4ad240efec6d99189536dcf687dfef845cbaa8d841d521692463c063d1cb17a"
+    },
+    {
+      "name": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "5a363e086960949954d31344346b15a2604bcc0ac23ef268af65e21f8fbf425c"
+    },
+    {
+      "name": "natural-compare",
+      "version": "1.4.0",
+      "license": "MIT",
+      "licenseSource": "Package README license section",
+      "buildOnlyMpl": false,
+      "licenseSha256": "cc836d88f55123b9e4be0dc7c1c631632e9e1783389263217a66f24f5b441075"
+    },
+    {
+      "name": "optionator",
+      "version": "0.9.4",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "852fd12ee703f3281d5fa920a9534d705b6c3ca70b6a06ec8c547de41445c2ee"
+    },
+    {
+      "name": "p-limit",
+      "version": "3.1.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d494e2998d0043c9415755c7cda32c4a1403a6f340b8c8ad1fd93fef5c0a763f"
+    },
+    {
+      "name": "p-locate",
+      "version": "5.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d494e2998d0043c9415755c7cda32c4a1403a6f340b8c8ad1fd93fef5c0a763f"
+    },
+    {
+      "name": "path-exists",
+      "version": "4.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "6543194a39119da8aa6baf08205970ce7ee6be7d377bfdb43eb38bfc2499dff5"
+    },
+    {
+      "name": "path-key",
+      "version": "3.1.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "6543194a39119da8aa6baf08205970ce7ee6be7d377bfdb43eb38bfc2499dff5"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "baf75c0cf609051c011a46a4f672d6c9ff9c47bb6ded1364882cb60c03f89992"
+    },
+    {
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "5621113b60e466710c7e79775a4cfef6d526899b71ee5434b9cb6c95400e7d9e"
+    },
+    {
+      "name": "playwright-core",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "4430e4c9b884d95ac3c3a9804c7284597ea0039f9c2bf5f4c0970be07ce7bf50"
+    },
+    {
+      "name": "playwright",
+      "version": "1.64.1",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "4430e4c9b884d95ac3c3a9804c7284597ea0039f9c2bf5f4c0970be07ce7bf50"
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.30",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "cea500fef9f3656b8d1110e7d33874d3647279fcb67191539a582795de1729d7"
+    },
+    {
+      "name": "prelude-ls",
+      "version": "1.2.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "852fd12ee703f3281d5fa920a9534d705b6c3ca70b6a06ec8c547de41445c2ee"
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "96624a7af8390e253b07c643d981db02828ee108201c21d043c4bb3ed849862d"
+    },
+    {
+      "name": "qified",
+      "version": "0.10.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d9cf732b6a4dc2b7bef3e13a40b10d573357bc0f5517985359f82b6f56541bcd"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "c6b2d3e6e88d156a91b2d49e04a836b45d8e71343459559742672bc2b07e8fd9"
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "c6b2d3e6e88d156a91b2d49e04a836b45d8e71343459559742672bc2b07e8fd9"
+    },
+    {
+      "name": "rolldown",
+      "version": "1.2.14",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "031f69ddf15fd0f8f8c329909c6354ec91e6d01159fe0d6410c9b7f230f76ebd"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "c6b2d3e6e88d156a91b2d49e04a836b45d8e71343459559742672bc2b07e8fd9"
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "2fa032ebcbd33b6cde15d275a97f48c2298aafbd9f2d5efb9910d0ff8f2ff2e5"
+    },
+    {
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "f455a69cbac459e1475a51098a02093c6ff80b31076ad24da2f2ac84d3d53a9f"
+    },
+    {
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "6543194a39119da8aa6baf08205970ce7ee6be7d377bfdb43eb38bfc2499dff5"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "1e12977f7c2aaef0a0cea274791bdffa69ddeb405d7589d8fa8bb0174dfc9034"
+    },
+    {
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "9416ba71c091806d1ede8dd948d57708e0bb1abf5438a2b7ff781550caf03dca"
+    },
+    {
+      "name": "ts-api-utils",
+      "version": "2.5.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "a43a7b444f0d342f530e89518add44918ef69894f424352ee1d8584fb40a217d"
+    },
+    {
+      "name": "tsx",
+      "version": "4.23.15",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "8b6f992bb0105fe659addb3bd91b2b5b68303875278e68b325198d75d8303986"
+    },
+    {
+      "name": "type-check",
+      "version": "0.4.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "852fd12ee703f3281d5fa920a9534d705b6c3ca70b6a06ec8c547de41445c2ee"
+    },
+    {
+      "name": "typescript-eslint",
+      "version": "8.71.2",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "3234d2d2443eab10573690fdf8d7f5e7450afb8e0e6c3aa5d1e080966b4d5d84"
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "4c6564400566762a67bc9c82ddeb1383bd91ce584e09feacfdbedef7b9230ce9"
+    },
+    {
+      "name": "undici-types",
+      "version": "6.21.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "6ca0fb65afe8bc71e45159344741cdf94e93fd556bbdcc24ad8de9b4b62b4109"
+    },
+    {
+      "name": "uri-js",
+      "version": "4.4.1",
+      "license": "BSD-2-Clause",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "349a2685cb91092f7858de6bcf8413ba9e9159e7c4f5bd0b38fbad6bb4283bf7"
+    },
+    {
+      "name": "vite",
+      "version": "8.3.4",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d3be75d2ea338b975326fe8d46c2a4de9f18c41699823419b551d531f455ba1b"
+    },
+    {
+      "name": "which",
+      "version": "2.0.2",
+      "license": "ISC",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "2fa032ebcbd33b6cde15d275a97f48c2298aafbd9f2d5efb9910d0ff8f2ff2e5"
+    },
+    {
+      "name": "word-wrap",
+      "version": "1.2.5",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "1dba6179467e3ffc3417fbe0ad4b239ea270985486ef27c819d6e7a89c93467f"
+    },
+    {
+      "name": "yocto-queue",
+      "version": "0.1.0",
+      "license": "MIT",
+      "licenseSource": "Package license files",
+      "buildOnlyMpl": false,
+      "licenseSha256": "d494e2998d0043c9415755c7cda32c4a1403a6f340b8c8ad1fd93fef5c0a763f"
+    }
+  ]
+}

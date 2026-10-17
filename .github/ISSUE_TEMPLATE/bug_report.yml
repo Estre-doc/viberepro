@@ -1,0 +1,17 @@
+name: Bug report
+description: A missed finding, false positive, or scanner failure
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Command, Node/OS version, and a minimal permitted URL or local fixture. Remove sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Expected and actual behavior
+      description: Attach redacted report data or screenshots. Review URLs and page content before sharing.
+    validations:
+      required: true
